@@ -1,0 +1,37 @@
+difference between powershell and cmd
+
+all the switches and parameters in cmd is different for different command :
+$ipconfig/?  : to know more regarding the options for specific command.
+
+
+powershell:
+it has modules and commandlets: 
+
+modules: collections of settings or commandlets 
+commandlets: commands that can be used in different modules.
+to view different modules you can go to powershell ISC 
+
+parameters::
+  required: double bracket options are required . some required param are invisible.
+  to view the requied service 
+      get-help get-<service>
+      get-help get-<parameter> -detailed/-example : for more info.
+      get-help get-<parameter> -full : for more technical information.
+      get-help get-<parameter> -online : for online help.
+        
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
